@@ -1,0 +1,47 @@
+name: reddit_walls
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  bloc: ^8.1.4
+  cached_network_image: ^3.4.1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_cache_manager: ^3.4.1
+  flutter_displaymode: ^0.6.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  flutter_staggered_grid_view: ^0.7.0
+  get_it: ^8.0.1
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  intl: ^0.19.0
+  json_annotation: ^4.9.0
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  wallpaper_manager_plus: ^0.0.3
+
+dev_dependencies:
+  bloc_test: ^9.1.7
+  build_runner: ^2.4.13
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.8.0
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/

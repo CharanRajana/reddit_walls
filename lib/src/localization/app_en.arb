@@ -1,0 +1,6 @@
+{
+  "appTitle": "reddit_walls",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
